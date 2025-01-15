@@ -1,0 +1,39 @@
+{
+  "name": "ayecode/flarum-restrictions",
+  "description": "Restrict Flarum content based on EDD licenses",
+  "version": "0.1.0",
+  "type": "flarum-extension",
+  "keywords": [
+    "flarum",
+    "restrictions",
+    "edd",
+    "license"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "AyeCode Ltd",
+      "email": "contact@ayecode.io",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "flarum/core": "^1.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AyeCode\\FlarumRestrictions\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "AyeCode Restrictions",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-lock",
+        "backgroundColor": "#238636",
+        "color": "#fff"
+      }
+    }
+  }
+}

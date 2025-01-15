@@ -1,0 +1,9 @@
+/vendor
+composer.lock
+.php_cs.cache
+.php-cs-fixer.cache
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
